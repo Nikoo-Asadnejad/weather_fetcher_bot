@@ -17,7 +17,7 @@ A simple Python script to fetch and display the current weather for a specified 
 
 1. **Clone the repository (if applicable)**:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Nikoo-Asadnejad/weather_fetcher_bot.git
    cd weather-fetcher
    ```
 2.	Install the required library:
