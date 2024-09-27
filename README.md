@@ -1,29 +1,24 @@
 # Weather Fetcher
 
-A simple Python script to fetch and display the current weather for a specified location using the [MetaWeather API](https://www.metaweather.com/).
+This script retrieves the current weather for a specified location by first obtaining the latitude and longitude using OpenStreetMap's Nominatim service, and then fetching the weather data from the Open-Meteo API.
 
 ## Features
-
-- Fetch weather data without requiring an API key.
-- Simple user interface to input the location.
-- Displays the temperature and weather state.
+- Retrieves latitude and longitude for a given location.
+- Fetches current weather information based on geographic coordinates.
+- Displays temperature and weather state.
+- Includes Telegram Bot
 
 ## Requirements
-
 - Python 3.x
 - Requests library
 
 ## Installation
 
-1. **Clone the repository (if applicable)**:
-   ```bash
-   git clone https://github.com/Nikoo-Asadnejad/weather_fetcher_bot.git
-   cd weather-fetcher
-   ```
-2.	Install the required library:
+1. Make sure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+2. Install the Required libraries using pip:
    
 ```bash
-  pip install requests
+  pip3 install requests python-telegram-bot
 ```
 
 ## Usage
