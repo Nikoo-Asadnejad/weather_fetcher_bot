@@ -23,7 +23,7 @@ A simple Python script to fetch and display the current weather for a specified 
 2.	Install the required library:
    
 ```bash
-   pip install requests
+  pip install requests
 ```
 
 ## Usage
