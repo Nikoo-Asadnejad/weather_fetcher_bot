@@ -56,7 +56,7 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("An error occurred. Please try again later.")
 
 def main():
-    TOKEN = '7941347236:AAE-9mPmB7MWvWHPnqAPqpb5like13OTfzI'
+    TOKEN = 'YOUR_TOKEN'
     
     application = ApplicationBuilder().token(TOKEN).build()
 
